@@ -50,4 +50,18 @@ Spring Cloud data Flow
 Data Flow 是一个用于开发和执行大范围数据处理其模式包括ETL,批量运算和持续运算的统一编程模型和托管服务。
 对于在现代运行环境中可组合的微服务程序来说，Spring Cloud Data Flow是一个原生云可编配的任务。使用Spring Cloud Data flow,开发者可以为像数据抽取，
 实时分析，和数据导入/导出这种常见用例创建和编配数据通道。
+Spring Cloud Task
+Spring Cloud Task 主要解决短命微服务的任务管理，任务调度的工作，比如说某些定时任务就跑一次，或者某项数据分析临时就跑几次。
+Spring Cloud Zookeeper
+Zookeeper是一个分布式的，开放源码的分布式应用程序协调服务，是Google的Chubby一个开源的实现，是Hadoop和Hbase的重要组件。它是一个分布式应用提供一致性
+服务的软件，提供的功能包括：配置服务、域名服务、分布式同步、组服务等。ZooKeeper的目标就是封装好复杂易出错的关键服务，将简单易用的接口和性能高效、功能稳定的系统提供给用户。操作Zookeeper的工具包，用于使用zookeeper方式的服务发现和配置管理，抱了Zookeeper的大腿。
+Spring Cloud Connectors
+简化了连接到服务的过程和从云平台获取操作的过程，有很强的扩展性，可以利用Spring Cloud Connectors来构建自己的云平台。便于云端应用程序在各种PaaS平台连接到后端，如：数据库和消息代理服务。
+Spring Cloud Starters
+Spring boot式的启动项目，为Spring Cloud提供开箱即用的依赖管理。
+Spring Cloud CLI
+基于Spring boot CLI可以让你以命令方式快速建立云组件。
+和Spring boot的关系
+Spring boot是Spring的一套快速配置脚手架，可以基于
+
   
