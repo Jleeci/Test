@@ -61,7 +61,12 @@ Spring Cloud Starters
 Spring boot式的启动项目，为Spring Cloud提供开箱即用的依赖管理。
 Spring Cloud CLI
 基于Spring boot CLI可以让你以命令方式快速建立云组件。
+
 和Spring boot的关系
-Spring boot是Spring的一套快速配置脚手架，可以基于
+Spring boot是Spring的一套快速配置脚手架，可以基于spring boot 快速开发单个微服务，Spring Cloud是一个基于Spring Boot实现的云应用开发工具；Spring Boot专注于快速的、方便集成的单个个体，Spring Cloud是关注全局的服务治理框架；Spring Boot使用了默认大于配置的理念，很多集成方案已经帮你选择好了，能不配置就不配置，Spring Cloud很大一部分是基于Spring Boot来实现。可以不基于Spring Boot吗？不可以。
+
+Spring Boot可以离开Spring Cloud独立使用开发项目，但是Spring Cloud离不开Spring Boot,属于依赖的关系。
+  Spring -> Spring Boot -> Spring Cloud
+  
 
   
